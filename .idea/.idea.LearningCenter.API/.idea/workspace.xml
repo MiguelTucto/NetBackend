@@ -5,12 +5,10 @@
     <projectFile profileName="IIS Express">LearningCenter.API/LearningCenter.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="feat: entities are added">
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Services/Communication/CategoryResponse.cs" afterDir="false" />
+    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="feat: BaseResponse &amp; CategoryResponse were added">
       <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Services/ICategoryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Shared/Domain/Services/Communication/BaseResponse.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCenter.API/LearningCenter.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/LearningCenter.API.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Resources/CategoryResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Resources/SaveCategoryResource.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654366337875</updated>
       <workItem from="1654366346058" duration="2045000" />
-      <workItem from="1654488731327" duration="760000" />
+      <workItem from="1654488731327" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init files to start working">
       <created>1654366536119</created>
@@ -97,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654490124126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: BaseResponse &amp; CategoryResponse were added">
+      <created>1654490746812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654490746812</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +125,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="feat: init files to start working" />
     <MESSAGE value="feat: entities are added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: entities are added" />
+    <MESSAGE value="feat: BaseResponse &amp; CategoryResponse were added" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: BaseResponse &amp; CategoryResponse were added" />
   </component>
 </project>
