@@ -5,16 +5,17 @@
     <projectFile profileName="IIS Express">LearningCenter.API/LearningCenter.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Controllers/CategoriesController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Repositories/ICategoryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Repositories/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ModelToResourceProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ResourceToModelProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Services/CategoryService.cs" afterDir="false" />
+    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="feat: category updating">
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Persistence/Contexts/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearningCenter.API/LearningCenter.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/LearningCenter.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/obj/Debug/net6.0/LearningCenter.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/obj/Debug/net6.0/LearningCenter.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearningCenter.API/obj/Debug/net6.0/LearningCenter.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/obj/Debug/net6.0/LearningCenter.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/obj/LearningCenter.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/obj/LearningCenter.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,7 @@
       <updated>1654366337875</updated>
       <workItem from="1654366346058" duration="2045000" />
       <workItem from="1654488731327" duration="8388000" />
+      <workItem from="1654639036677" duration="1570000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init files to start working">
       <created>1654366536119</created>
@@ -122,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654520798965</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: category updating">
+      <created>1654639175691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654639175691</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +157,7 @@
     <MESSAGE value="feat: BaseResponse &amp; CategoryResponse were added" />
     <MESSAGE value="feat: Resources were implemented" />
     <MESSAGE value="feat: AutoMapper added" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: AutoMapper added" />
+    <MESSAGE value="feat: category updating" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: category updating" />
   </component>
 </project>
