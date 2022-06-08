@@ -4,7 +4,7 @@ public class Tutorial
 {
     public int Id { get; set; }
     public string Title { get; set; }
-    public string description { get; set; }
+    public string Description { get; set; }
     public bool Status { get; set; }
     
     // Relationships
