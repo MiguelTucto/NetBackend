@@ -5,11 +5,17 @@
     <projectFile profileName="IIS Express">LearningCenter.API/LearningCenter.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="feat: last updates for Category">
+    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="feat: category relationships">
       <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Repositories/ITutorialRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Services/Communication/TutorialResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Services/ITutorialService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Persistence/Repositories/TutorialRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Resources/SaveTutorialResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Resources/TutorialResource.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Services/TutorialService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Models/Tutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Models/Tutorial.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Persistence/Contexts/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Persistence/Contexts/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ModelToResourceProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ModelToResourceProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ResourceToModelProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ResourceToModelProfile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/User/RiderProjects/LearningCenter.API/LearningCenter.API/Learning/Domain/Models/Tutorial.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/User/RiderProjects/LearningCenter.API/LearningCenter.API/Learning/Persistence/Contexts/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/User/RiderProjects/LearningCenter.API/LearningCenter.API/Learning/Persistence/Contexts/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LearningCenter.API/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -82,7 +90,7 @@
       <updated>1654366337875</updated>
       <workItem from="1654366346058" duration="2045000" />
       <workItem from="1654488731327" duration="8388000" />
-      <workItem from="1654639036677" duration="4236000" />
+      <workItem from="1654639036677" duration="7554000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init files to start working">
       <created>1654366536119</created>
@@ -147,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654653475511</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: category relationships">
+      <created>1654654240019</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654654240019</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +192,7 @@
     <MESSAGE value="feat: Microsoft.EntityFrameworkCore - Microsoft.EntityFrameworkCore.Relational - Microsoft.EntityFrameworkCore.Relational.Design - MySql.EntityFrameworkCore" />
     <MESSAGE value="feat: snake case added" />
     <MESSAGE value="feat: last updates for Category" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: last updates for Category" />
+    <MESSAGE value="feat: category relationships" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: category relationships" />
   </component>
 </project>
