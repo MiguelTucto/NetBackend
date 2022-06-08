@@ -5,17 +5,11 @@
     <projectFile profileName="IIS Express">LearningCenter.API/LearningCenter.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="feat: category relationships">
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Repositories/ITutorialRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Services/Communication/TutorialResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Services/ITutorialService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Persistence/Repositories/TutorialRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Resources/SaveTutorialResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Resources/TutorialResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Services/TutorialService.cs" afterDir="false" />
+    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="feat: tutorial was implemented">
+      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Shared/Extensions/ModelStateExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ModelToResourceProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ModelToResourceProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ResourceToModelProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Mapping/ResourceToModelProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Controllers/CategoriesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Controllers/CategoriesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Resources/SaveCategoryResource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Resources/SaveCategoryResource.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +84,7 @@
       <updated>1654366337875</updated>
       <workItem from="1654366346058" duration="2045000" />
       <workItem from="1654488731327" duration="8388000" />
-      <workItem from="1654639036677" duration="7554000" />
+      <workItem from="1654639036677" duration="8982000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init files to start working">
       <created>1654366536119</created>
@@ -162,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654654240019</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: tutorial was implemented">
+      <created>1654657582154</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654657582154</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +194,7 @@
     <MESSAGE value="feat: snake case added" />
     <MESSAGE value="feat: last updates for Category" />
     <MESSAGE value="feat: category relationships" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: category relationships" />
+    <MESSAGE value="feat: tutorial was implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: tutorial was implemented" />
   </component>
 </project>
