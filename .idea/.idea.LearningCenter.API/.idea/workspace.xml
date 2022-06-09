@@ -5,8 +5,14 @@
     <projectFile profileName="IIS Express">LearningCenter.API/LearningCenter.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="feat: last updates for tutorials">
-      <change afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Controllers/CategoryTutorialsController.cs" afterDir="false" />
+    <list default="true" id="94d13216-a459-4fc5-b4cf-da9c07e104ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LearningCenter.API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Models/Tutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Domain/Models/Tutorial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Learning/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Learning/Services/CategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningCenter.API/obj/Debug/net6.0/LearningCenter.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCenter.API/obj/Debug/net6.0/LearningCenter.API.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,7 @@
       <updated>1654366337875</updated>
       <workItem from="1654366346058" duration="2045000" />
       <workItem from="1654488731327" duration="8388000" />
-      <workItem from="1654639036677" duration="10680000" />
+      <workItem from="1654639036677" duration="14540000" />
     </task>
     <task id="LOCAL-00001" summary="feat: init files to start working">
       <created>1654366536119</created>
@@ -175,7 +181,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654688428326</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: categorytutorialcontroller was added">
+      <created>1654688777223</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654688777223</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: automapper.extensions.microsoft.dependecyinjection">
+      <created>1654688932243</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654688932243</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +229,8 @@
     <MESSAGE value="feat: tutorial was implemented" />
     <MESSAGE value="feat: finishing categories" />
     <MESSAGE value="feat: last updates for tutorials" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: last updates for tutorials" />
+    <MESSAGE value="feat: categorytutorialcontroller was added" />
+    <MESSAGE value="feat: automapper.extensions.microsoft.dependecyinjection" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: automapper.extensions.microsoft.dependecyinjection" />
   </component>
 </project>
